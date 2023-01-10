@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto 400px;
+    gap:1em;
+    
+    /*
+    justify-items:center;
+    align-items: start;
+    column-gap:1em;
+    row-gap:1em; 
+    */
+}
+.container div{
+    background: #cacaca;
+    padding: 1em;
+}
+
+.container div:hover{
+    border: 3px solid yellow;
+}
+
+span{
+    color: black; 
+    font-size: 120px;
+    font-weight:bolder;
+    position: absolute;
+    top: 40%;
+    left: -25%;
+    -webkit-text-stroke: 1px #cacacaca;        
+}
