@@ -1,26 +1,41 @@
 body{
-  width: 1680px;
+  background: #141414;
 }
 .container-fluid{
-  background: #141414;
+
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: auto;
   gap:1em;
-  height: 640px;
+  height: 600px;
   margin-top: 200px;
   width: 1920px;
 }
 p{
      color: #ffffff;
      font-size: 15px;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+.banner{
+  margin-top: 5px;
+  grid-column: 1/6;
+  height: 50px;
+  
+}
+.titulo{
+  color: #ffffff;
+  margin-top:-45px;
+  margin-left: 220px;
+}
+.netflix{
+  margin-left: 40px;
+  width:10rem;
 }
 .card{
     background: #141414;
     border:0;
-    margin: 15px 0px 0px 40px;
-    width: 9rem;
+    margin: 7px 0px 0px 40px;
+    height:250px;
+    width: 10rem;
 }
 span{
     color: #ffffff;
