@@ -7,7 +7,7 @@ body{
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   gap:1em;
-  height: 540px;
+  height: 640px;
   margin-top: 200px;
   width: 1920px;
 }
@@ -28,6 +28,8 @@ span{
     font-weight:bolder;
     position: absolute;
     top: 40%;
-    margin-left:-45px;     
+    margin-left:-50px;     
 }
-
+.diez{
+  margin-left: -95px;
+}
