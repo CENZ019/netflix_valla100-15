@@ -23,17 +23,17 @@ p{
 }
 .titulo{
   color: #ffffff;
-  margin-top:-45px;
-  margin-left: 220px;
+  margin-top:-35px;
+  margin-left: 270px;
 }
 .netflix{
-  margin-left: 40px;
-  width:10rem;
+  margin-left: 80px;
+  width:11rem;
 }
 .card{
     background: #141414;
     border:0;
-    margin: 7px 0px 0px 40px;
+    margin: 7px 0px 0px 120px;
     height:250px;
     width: 10rem;
 }
