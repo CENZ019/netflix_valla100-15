@@ -7,8 +7,8 @@ body{
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
   gap:1em;
-  margin-top: 400px;
-  width: 1680px;
+  margin-top: 250px;
+  width: 1920px;
 }
 p{
      color: #ffffff;
